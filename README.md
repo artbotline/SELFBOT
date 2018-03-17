@@ -1,1 +1,6 @@
-SELFBOT By:™ചচ✾ъπ່७✾ざণاعနัю❍ีざန
+
+git clone https://github.com/artbotline/art.git
+
+cd
+
+python2
