@@ -1,11 +1,11 @@
 
-git clone https://github.com/artbotline/bot_v11.git
+git clone https://github.com/artbotline/bots-v11.git
 
-cd bot_v11
-python2 v1.py
+cd bots-v11
+python2 v01.py
 
-cd bot_v11
-python2 v2.py
+cd bots-v11
+python2 v02.py
 
-cd bot_v11
-python2 v3.py
+cd bots-v11
+python2 v03.py
