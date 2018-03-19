@@ -1,11 +1,11 @@
 
-git clone https://github.com/artbotline/bot123.git
+git clone https://github.com/artbotline/bot1234.git
 
-cd bot123
-python2 bot1.py
+cd bot1234
+python2 bo1.py
 
-cd bot123
-python2 bot2.py
+cd bot1234
+python2 bo2.py
 
-cd bot123
-python2 bot3.py
+cd bot1234
+python2 bo3.py
