@@ -1,5 +1,5 @@
 
-git clone https://github.com/artbotline/bots-v11.git
+git clone https://github.com/artbotline/bots.git
 
 cd bots-v11
 python2 v01.py
