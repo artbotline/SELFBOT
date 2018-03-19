@@ -1766,7 +1766,7 @@ def bot(op):
             if msg.contentType == 16:
                 url = msg.contentMetadata["postEndUrl"]
                 cl.like(url[25:58], url[66:], likeType=1001)
------------------------------------------------
+#-----------------------------------------------
         if op.type == 17:
             group = cl.getGroup(op.param1)
             cb = Message()
