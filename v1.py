@@ -314,8 +314,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = [Amid1,Amid2,Amid3,Amid4,Amid5]
-self = "u094b991a162ec1f066abb5e98c0434c6"
+Bots = [mid,Amid1,Amid2,Amid3,Amid4,Amid5]
+self = [mid,Amid1,Amid2,Amid3,Amid4,Amid5]
 admin = "u094b991a162ec1f066abb5e98c0434c6"
 admsa = "u094b991a162ec1f066abb5e98c0434c6"
 owner = "u094b991a162ec1f066abb5e98c0434c6"
@@ -2137,7 +2137,7 @@ def bot(op):
             elif "คท" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': mid}
-                cl.sendMessage(msg)
+                ki1.sendMessage(msg)
 
 
             elif "vdo:" in msg.text.lower():
@@ -2162,9 +2162,9 @@ def bot(op):
                     html = response.read()
                     soup = BeautifulSoup(html, "html.parser")
                     results = soup.find(attrs={'class':'yt-uix-tile-link'})
-                    cl.sendText(msg.to,'https://www.youtube.com' + results['href'])
+                    ki1.sendText(msg.to,'https://www.youtube.com' + results['href'])
                 except:
-                    cl.sendText(msg.to,"Could not find it")
+                    ki1.sendText(msg.to,"Could not find it")
 
 
 
@@ -2346,7 +2346,7 @@ def bot(op):
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '1'}
                 msg.text = None
-                cl.sendMessage(msg)
+                ki1.sendMessage(msg)
 
             #VPS STUFF - VPS NEEDED TO RUN THIS COMMAND :)
             elif msg.text in ["vps","kernel","Vps"]:
@@ -2367,15 +2367,15 @@ def bot(op):
                     M.to = msg.to
                     M.contentType = 13
                     M.contentMetadata = {'mid': GS}
-                    cl.sendMessage(M)
+                    ki1.sendMessage(M)
                 except:
                     W = group.members[0].mid
                     M = Message()
                     M.to = msg.to
                     M.contentType = 13
                     M.contentMetadata = {'mid': W}
-                    cl.sendMessage(M)
-                    cl.sendText(msg.to,"old user")
+                    ki2.sendMessage(M)
+                    ki2.sendText(msg.to,"old user")
             elif 'ขอเพลง ' in msg.text:
                 try:
                     textToSearch = (msg.text).replace('ขอเพลง ', "").strip()
@@ -2385,9 +2385,9 @@ def bot(op):
                     html = response.read()
                     soup = BeautifulSoup(html, "html.parser")
                     results = soup.find(attrs={'class':'yt-uix-tile-link'})
-                    cl.sendText(msg.to,'https://www.youtube.com' + results['href'])
+                    ki1.sendText(msg.to,'https://www.youtube.com' + results['href'])
                 except:
-                    cl.sendText(msg.to,"Could not find it")
+                    ki1.sendText(msg.to,"Could not find it")
 
             elif "#set" in msg.text:
 				cl.sendText(msg.to, "Let's see who lazy to type")
@@ -2411,9 +2411,9 @@ def bot(op):
 							print rom
 							chiya += rom[1] + "\n"
 
-					cl.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
+					ki1.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
 				else:
-					cl.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
+					ki1.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
 
 
             elif msg.text in ["Myginfoid"]:
