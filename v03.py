@@ -87,8 +87,6 @@ helpMessage ="""╔═════════════════
 ║❂͜͡☆➣ 『มึงตาย』= ลงใวรัส แอนดรอยจะค้าง เด้งออก‼️‼️‼
 ║❂͜͡☆➣ 『ลบรัน』= ลบห้องรัน
 ╚═════════════════
-
-
 ╔═════════════════
 ║  ┅═✥s̵ᴇʟғʙᴏᴛ ᴛʜᴀɪʟᴀɴᴅ✥═┅─
 ║   BY.☆-❍ণហ ざণاعနัю❍ีざန-
@@ -314,8 +312,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = [mid,Amid1,Amid2,Amid3,Amid4,Amid5]
-self = [mid,Amid1,Amid2,Amid3,Amid4,Amid5]
+Bots = [Amid1,Amid2,Amid3,Amid4,Amid5]
+self = [Amid1,Amid2,Amid3,Amid4,Amid5]
 admin = "u094b991a162ec1f066abb5e98c0434c6"
 admsa = "u094b991a162ec1f066abb5e98c0434c6"
 owner = "u094b991a162ec1f066abb5e98c0434c6"
@@ -1768,19 +1766,19 @@ def bot(op):
             if msg.contentType == 16:
                 url = msg.contentMetadata["postEndUrl"]
                 cl.like(url[25:58], url[66:], likeType=1001)
-#-----------------------------------------------
-        #if op.type == 17:
-           # group = cl.getGroup(op.param1)
-           # cb = Message()
-           # cb.to = op.param1
-           # cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
-           # cl.sendMessage(cb)
-        #if op.type == 15:
-           # group = cl.getGroup(op.param1)
-           # cb = Message()
-           # cb.to = op.param1
-           # cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢"
-           # cl.sendMessage(cb)
+-----------------------------------------------
+        if op.type == 17:
+            group = cl.getGroup(op.param1)
+            cb = Message()
+            cb.to = op.param1
+            cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
+            cl.sendMessage(cb)
+        if op.type == 15:
+            group = cl.getGroup(op.param1)
+            cb = Message()
+            cb.to = op.param1
+            cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢"
+            cl.sendMessage(cb)
 #------------------------------------------------------------------------------------
         if op.type == 26:
             msg = op.message
@@ -1800,7 +1798,7 @@ def bot(op):
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
                      balas = [""]
-                     ret_ = "เเทกทำเหี้ยไร" + random.choice(balas)
+                     ret_ = "โอ๊บ โอ๊บ โอ๊บๆๆๆๆๆ" + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
                      mentionees = mention['MENTIONEES']
@@ -2137,7 +2135,7 @@ def bot(op):
             elif "คท" == msg.text:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': mid}
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
 
 
             elif "vdo:" in msg.text.lower():
@@ -2162,9 +2160,9 @@ def bot(op):
                     html = response.read()
                     soup = BeautifulSoup(html, "html.parser")
                     results = soup.find(attrs={'class':'yt-uix-tile-link'})
-                    ki1.sendText(msg.to,'https://www.youtube.com' + results['href'])
+                    cl.sendText(msg.to,'https://www.youtube.com' + results['href'])
                 except:
-                    ki1.sendText(msg.to,"Could not find it")
+                    cl.sendText(msg.to,"Could not find it")
 
 
 
@@ -2346,7 +2344,7 @@ def bot(op):
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58', 'PRDTYPE': 'THEME', 'MSGTPL': '1'}
                 msg.text = None
-                ki1.sendMessage(msg)
+                cl.sendMessage(msg)
 
             #VPS STUFF - VPS NEEDED TO RUN THIS COMMAND :)
             elif msg.text in ["vps","kernel","Vps"]:
@@ -2367,15 +2365,15 @@ def bot(op):
                     M.to = msg.to
                     M.contentType = 13
                     M.contentMetadata = {'mid': GS}
-                    ki1.sendMessage(M)
+                    cl.sendMessage(M)
                 except:
                     W = group.members[0].mid
                     M = Message()
                     M.to = msg.to
                     M.contentType = 13
                     M.contentMetadata = {'mid': W}
-                    ki2.sendMessage(M)
-                    ki2.sendText(msg.to,"old user")
+                    cl.sendMessage(M)
+                    cl.sendText(msg.to,"old user")
             elif 'ขอเพลง ' in msg.text:
                 try:
                     textToSearch = (msg.text).replace('ขอเพลง ', "").strip()
@@ -2385,9 +2383,9 @@ def bot(op):
                     html = response.read()
                     soup = BeautifulSoup(html, "html.parser")
                     results = soup.find(attrs={'class':'yt-uix-tile-link'})
-                    ki1.sendText(msg.to,'https://www.youtube.com' + results['href'])
+                    cl.sendText(msg.to,'https://www.youtube.com' + results['href'])
                 except:
-                    ki1.sendText(msg.to,"Could not find it")
+                    cl.sendText(msg.to,"Could not find it")
 
             elif "#set" in msg.text:
 				cl.sendText(msg.to, "Let's see who lazy to type")
@@ -2411,9 +2409,9 @@ def bot(op):
 							print rom
 							chiya += rom[1] + "\n"
 
-					ki1.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
+					cl.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
 				else:
-					ki1.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
+					cl.sendText(msg.to, "read point not set\nReading point setting you send it it will send an esxisting one")
 
 
             elif msg.text in ["Myginfoid"]:
@@ -2807,7 +2805,21 @@ http://line.me/ti/p/_9io7edD7W
             elif "Phet Keyy" in msg.text:
                 cl.sendText(msg.to,""" 􀜁􀇔􏿿􀜁􀇔􏿿[{PHET HACK BOT}] 􀜁􀇔􏿿􀜁􀇔􏿿 \n\n 􀜁􀇔􏿿 key Only Kicker 􀜁􀇔􏿿 \n\n􀜁􀇔􏿿[Kb1 in]\n􀜁􀇔􏿿[1Aditname:]\n􀜁􀇔􏿿[B Cancel]\n􀜁􀇔􏿿[kick @]\n􀜁􀇔􏿿[Ban @]\n􀜁􀇔􏿿[kill]\n􀜁􀇔􏿿[BotChat]\n􀜁􀇔􏿿[Respons]\n􀜁􀇔􏿿[Pb1 Gift]\n􀜁􀇔􏿿[Pb1 bye]\n\n
 
-•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•
+❍ণហ ざণاعနัю❍ีざနะ
+​❍ণហ ざণاعနัю❍ีざနะ
+❍ণហ ざণاعနัю❍ีざနะ
+❍ণហ ざণاعနัю❍ีざနะ
+❍ণហ ざণاعနัю❍ีざနะ
+❍ণហ ざণاعနัю❍ีざနะ
+❍ণហ ざণاعနัю❍ีざနะ
+❍ণហ ざণاعနัю❍ีざနะ
+❍ণហ ざণاعနัю❍ีざနะ
+❍ণហ ざণاعနัю❍ีざနะ
+
+[By.❍ণហ ざণاعနัю❍ีざနะ]
+[By.❍ণហ ざণاعနัю❍ีざနะ]
+[By.❍ণហ ざণاعနัю❍ีざနะ]
+[By.❍ণហ ざণاعနัю❍ีざနะ]
 """)
 
             elif msg.text.lower() == 'ยกเลิก':
