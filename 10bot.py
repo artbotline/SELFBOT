@@ -15,44 +15,44 @@ cl.login(token="Er3VQfzfDaaCjrXqXiRf.7XcR1Iuq/y0vAWsI7DNQpW.DpCL6B/vZYhTnEHjCr09
 cl.loginResult()
 
 ki1 = LINETCR.LINE()
-ki1.login(token="EqjZ2siuA7ENf0rmC7F6.cuUzgHyUWFbMQ7xPJaq0XG.0lAbXoQM6q+wFo6CylphTJt1aMwYVk5e5fmPdja94DE=")
+ki1.login(token="Er5agOr6uRrEOKQrZRi6.AeKuEPcGr3Cdzv9gJs2bvG.8yzEO48bYJwfCGKBySFqOy9q7l5UPvjEaSTlfRD9YHo=")
 ki1.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="EqhZqbkdj2cNK8TqNble.Kvau/VcPeZfM1YcbhLVitG.OfnVSOiXl/BMahbhGhcx4iqKwYCiey+ezovr0BJBtew=")
+ki2.login(token="Erhz4G8IeN1Mmkqie812.g1ZogJeNTfjMt9VAu1zSGG.gar2uHEOdhEzRnRUCqC9OXbiBvE1xXtvpM/DtwZrd1A=")
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token="Eq4EZbbCFCyt9KsUoQ53.79PAR+RAKsSM2zgsVO+CyW.tf1VOF5vVd/zg287CCrjgJcKfBYznIFtDjL+sDcX//c=")
+ki3.login(token="ErAoX56Of7DoaZSqXoGa.HszijXjCkLdDESr3IFJFMG.EO2A4ILuDUPqxIqT/BPoqgns66Q65tEzAB9K4EkcO2s=")
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token="EqaHwFxi3J84EERQy9Q1.AD3P2UMLgZuyeauB9gdXaq.SXpO4lFOm6gHgaFIXtQzXwYTrbnz81/6Mcmktp0ta+8=")
+ki4.login(token="EreMn5alQOZyl8grDdL9.0BAGT8fYNlwtFF0JpnoQQq.Es6eEkrFEWU+Zs3XQlGHIraIGDpq7pvplMn9rhRcgX4=")
 ki4.loginResult()
 
 ki5 = LINETCR.LINE()
-ki5.login(token="EqTWd0Z5K6gNklkCuPfa.Xfl9nQtDPVEo54Iq5GTYwG.tqGkvbBc6FEGJ592tBycbt7FHz2lWEcRH9NuUKKbRZo=")
+ki5.login(token="ErY98IkjWVr2qbGlVeZe.Pp+d5cSpGJyV3FSStOSsZG.URLjWMi65OJBUgGon5j6DW7wtxxaQKYgHrAqpMoqwJc=")
 ki5.loginResult()
 
-#ki6 = LINETCR.LINE()
-#ki6.login(token="EquLYjcouSJ9LGmPin70.Cv95vqzDgLx8+zmVrXH4Ca.vv+mkfXBzD42bc/YgL01HTg21CLEkLX+KDYbFDoahkE=")
-#ki6.loginResult()
+ki6 = LINETCR.LINE()
+ki6.login(token="ErclZ6IdQ8c9LAT6zWIe.FAFJczyJbR7tXWzc5CAI+G.iLNjoKahICOVuP7lV6JAp2hxu6juD/7SERP/nKd7MDI")
+ki6.loginResult()
 
-#ki7 = LINETCR.LINE()
-#ki7.login(token="EqsZ5GH6HnQoS4oGM591.QDMdOy12YVbLkz7lLIqy0q.ANubPzlTPypv2L3PMko4BzQza/GpE5OaURZfeDdmjIo=")
-#ki7.loginResult()
+ki7 = LINETCR.LINE()
+ki7.login(token="ErjD5fJqbEI18e9fbDCf.4/CTth89qPPNvygeCYdQJW.C5Gw+Wq3RmZE7gz3LvP/jqbcsf9oRS3pRxBDO3UGjNM=")
+ki7.loginResult()
 
-#ki8 = LINETCR.LINE()
-#ki8.login(token="EqOevKn9ZNPWNMJS9T29.XEUqxARLXILzTzLLv1QJYq.CdAw0veWcJYhEWYbOSYK5JyC6JD7FkjMqeofOv7EXgo=")
-#ki8.loginResult()
+ki8 = LINETCR.LINE()
+ki8.login(token="ErGaDtOimSJPzMO2ej27.pv884/sYFcXVxi1KPZldLW.BEbIv3hWWmmIdwicIJdEgGHiiQIw7ZflXkdaFAgH5/w=")
+ki8.loginResult()
 
-#ki9 = LINETCR.LINE()
-#ki9.login(token="EqbBllhi29usFFqsuHS2.VhejKUGgzoMEcIIj1BcZGG.KDBRceGRjwVzvhdRu6mjB6r32lMvVXTcOmHGUKVr7+Q=")
-#ki9.loginResult()
+ki9 = LINETCR.LINE()
+ki9.login(token="ErkIWEL86KUoFePu5WL7.u4e7sLbWPxkZMzv1i8UAvW.4rqvonYlX8VEbhTrunrPyHeHdaMv7dAI9/nmsCv6WUo=")
+ki9.loginResult()
 
-#ki10 = LINETCR.LINE()
-#ki10.login(token="EqhSMrKyIhwLTyfPe9Vb.E7XyR5MFl1qYmRcqJCEFYW.bgJX5VxR/9PeL0FLDXX9+VTqFNzp2RZvmfUaYQ2TpW8=")
-#ki10.loginResult()
+ki10 = LINETCR.LINE()
+ki10.login(token="ErKVOS86sGEKL1Vieoa3.qM2w4JmIWq5isTT8WtzEqW.mF5uP9IIx0N9VQhdFMPrD+wyVpuJNqyDLYVn8LLyLOA=")
+ki10.loginResult()
 
 print "login success"
 reload(sys)
@@ -298,11 +298,11 @@ Amid2 = ki2.getProfile().mid
 Amid3 = ki3.getProfile().mid
 Amid4 = ki4.getProfile().mid
 Amid5 = ki5.getProfile().mid
-#Amid6 = ki6.getProfile().mid
-#Amid7 = ki7.getProfile().mid
-#Amid8 = ki8.getProfile().mid
-#Amid9 = ki9.getProfile().mid
-#Amid10 = ki10.getProfile().mid
+Amid6 = ki6.getProfile().mid
+Amid7 = ki7.getProfile().mid
+Amid8 = ki8.getProfile().mid
+Amid9 = ki9.getProfile().mid
+Amid10 = ki10.getProfile().mid
 
 protectname = []
 protecturl = []
@@ -312,13 +312,13 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = [Amid1,Amid2,Amid3,Amid4,Amid5]
-self = [Amid1,Amid2,Amid3,Amid4,Amid5]
-admin = "u094b991a162ec1f066abb5e98c0434c6"
-admsa = "u094b991a162ec1f066abb5e98c0434c6"
-owner = "u094b991a162ec1f066abb5e98c0434c6"
-adminMID = "u094b991a162ec1f066abb5e98c0434c6"
-Creator="u094b991a162ec1f066abb5e98c0434c6"
+Bots = ["uef10abd62510f98d156b04a2edd9ea3f",Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
+self = ["uef10abd62510f98d156b04a2edd9ea3f",Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
+admin = "uef10abd62510f98d156b04a2edd9ea3f"
+admsa = "uef10abd62510f98d156b04a2edd9ea3f"
+owner = "uef10abd62510f98d156b04a2edd9ea3f"
+adminMID = "uef10abd62510f98d156b04a2edd9ea3f"
+Creator="uef10abd62510f98d156b04a2edd9ea3f"
 wait = {
     "alwayRead":False,
     "detectMention":True,
@@ -333,7 +333,7 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me By:----❍ণហ ざণاعနัю❍ีざန----",
+    'message':"Thanks for add Me By:สายการบิน-นกแอร์ รักคุณเท่าฟ้า.",
     "lang":"JP",
     "comment":"AutoLike by Phet",
     "commentOn":False,
@@ -346,7 +346,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"----❍ণហ ざণاعနัю❍ีざန----",
+    "cName":"สายการบิน-นกแอร์ รักคุณเท่าฟ้า.",
     "likeOn":False,
     "pname":False,
     "blacklist":{},
@@ -443,35 +443,35 @@ backup.displayName = contact.displayName
 backup.statusMessage = contact.statusMessage
 backup.pictureStatus = contact.pictureStatus
 
-#contact = ki6.getProfile()
-#backup = ki6.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki6.getProfile()
+backup = ki6.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki7.getProfile()
-#backup = ki7.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki7.getProfile()
+backup = ki7.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki8.getProfile()
-#backup = ki8.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki8.getProfile()
+backup = ki8.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki9.getProfile()
-#backup = ki9.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki9.getProfile()
+backup = ki9.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
-#contact = ki10.getProfile()
-#backup = ki10.getProfile()
-#backup.displayName = contact.displayName
-#backup.statusMessage = contact.statusMessage
-#backup.pictureStatus = contact.pictureStatus
+contact = ki10.getProfile()
+backup = ki10.getProfile()
+backup.displayName = contact.displayName
+backup.statusMessage = contact.statusMessage
+backup.pictureStatus = contact.pictureStatus
 
 
 def restart_program():
@@ -995,10 +995,10 @@ def bot(op):
                             cl.rejectGroupInvitation(op.param1)
                         else:
                             cl.acceptGroupInvitation(op.param1)
-                        cl.sendText(op.param1, "Your invitation was declined\n\n[SELFBOT PHET HACK BOT]]\n\nhttp://line.me/ti/p/_9io7edD7W")
+                        cl.sendText(op.param1, "Your invitation was declined\n\n[SELFBOT PHET HACK BOT]]\n\nสายการบิน-นกแอร์ รักคุณเท่าฟ้า.")
                     else:
                         cl.acceptGroupInvitation(op.param1)
-                        cl.sendText(op.param1, "Your invitation was declined\n\n[SELFBOT PHET HACK BOT]]\n\nhttp://line.me/ti/p/_9io7edD7W")
+                        cl.sendText(op.param1, "Your invitation was declined\n\n[SELFBOT PHET HACK BOT]]\n\nสายการบิน-นกแอร์ รักคุณเท่าฟ้า.")
                 elif wait["autoCancel"]["on"] == True:
                     if len(G.members) <= wait["autoCancel"]["members"]:
                         cl.rejectGroupInvitation(op.param1)
@@ -1767,18 +1767,18 @@ def bot(op):
                 url = msg.contentMetadata["postEndUrl"]
                 cl.like(url[25:58], url[66:], likeType=1001)
 #-----------------------------------------------
-        if op.type == 17:
-            group = cl.getGroup(op.param1)
-            cb = Message()
-            cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
-            cl.sendMessage(cb)
-        if op.type == 15:
-            group = cl.getGroup(op.param1)
-            cb = Message()
-            cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢"
-            cl.sendMessage(cb)
+        #if op.type == 17:
+        #    group = cl.getGroup(op.param1)
+        #    cb = Message()
+        #    cb.to = op.param1
+        #    cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
+        #    cl.sendMessage(cb)
+        #if op.type == 15:
+        #    group = cl.getGroup(op.param1)
+        #    cb = Message()
+        #    cb.to = op.param1
+        #    cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢"
+        #    cl.sendMessage(cb)
 #------------------------------------------------------------------------------------
         if op.type == 26:
             msg = op.message
@@ -2337,7 +2337,7 @@ def bot(op):
                 adm = 'u094b991a162ec1f066abb5e98c0434c6'
                 msg.contentMetadata = {'mid': adm}
                 cl.sendMessage(msg)
-                cl.sendText(msg.to,"Add Line http://line.me/ti/p/_9io7edD7W")
+                cl.sendText(msg.to,"•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•")
 
 
             elif msg.text in ["ของขวัญ","Gift"]:
@@ -2472,7 +2472,7 @@ def bot(op):
                         ki1.sendText(msg.to,"เรียกพวกผมมีไรลูกพี่")
                         ki2.sendText(msg.to,"กลุ่มใครว่ะ ลบเเม่งเลยดีมั้ย")
                         ki3.sendText(msg.to,"ตบโชว์เลยดีมั้ย")
-                        ki1.sendText(msg.to,"ทักทาย" + str(ginfo.name) + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki1.sendText(msg.to,"ทักทาย" + str(ginfo.name) + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -2518,25 +2518,25 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        ki1.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki1.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki1.leaveGroup(msg.to)
-                        ki2.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki2.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki2.leaveGroup(msg.to)
-                        ki3.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki3.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki3.leaveGroup(msg.to)
-                        ki4.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki4.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki4.leaveGroup(msg.to)
-                        ki5.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki5.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki5.leaveGroup(msg.to)
-                        ki6.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki6.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki6.leaveGroup(msg.to)
-                        ki7.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki7.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki7.leaveGroup(msg.to)
-                        ki8.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki8.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki8.leaveGroup(msg.to)
-                        ki9.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki9.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki9.leaveGroup(msg.to)
-                        ki10.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ✫─•]")
+                        ki10.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
                         ki10.leaveGroup(msg.to)
 
                     except:
@@ -6381,7 +6381,7 @@ http://line.me/ti/p/_9io7edD7W
                 if op.param2 in Bots:
                     return
                 cl.sendText(op.param1,cl.getContact(op.param2).displayName + " ☜ʕ•ﻌ•ʔ ")
-                cl.sendText(op.param1, "􀜁􀄁􏿿 ยินดีต้อนรับครับ 􀜁􀄁􏿿\n􀄃􀅸􏿿 สวัสดีครับผม 􀄃􀅸􏿿\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะ 􂜁􀆄􏿿\n\n[By.❍ণហ ざণاعနัю❍ีざနะ]")
+                cl.sendText(op.param1, "􀜁􀄁􏿿 ยินดีต้อนรับครับ 􀜁􀄁􏿿\n􀄃􀅸􏿿 สวัสดีครับผม 􀄃􀅸􏿿\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะ 􂜁􀆄􏿿\n\n[By.สายการบิน-นกแอร์ รักคุณเท่าฟ้า.]")
                 print "MEMBER HAS JOIN THE GROUP"
 
         if op.type == 19:
@@ -6404,7 +6404,7 @@ http://line.me/ti/p/_9io7edD7W
             if wait["Notifedbot"] == True:
                 if op.param2 in Bots:
                     return
-                ki1.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n􀜁􀄁􏿿􂘁􀄗􏿿􂘁􀄅􏿿􂘁􀄌􏿿􂘁􀄃􏿿􂘁􀄏􏿿􂘁􀄍􏿿􂘁􀄅􏿿􀜁􀄁􏿿\n\n[By.❍ণហ ざণاعနัю❍ีざနะ]")
+                ki1.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n􀜁􀄁􏿿􂘁􀄗􏿿􂘁􀄅􏿿􂘁􀄌􏿿􂘁􀄃􏿿􂘁􀄏􏿿􂘁􀄍􏿿􂘁􀄅􏿿􀜁􀄁􏿿\n\n[By.สายการบิน-นกแอร์ รักคุณเท่าฟ้า.]")
 
                 print "MEMBER HAS JOIN THE GROUP"
         if op.type == 19:
