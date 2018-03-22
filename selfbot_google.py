@@ -11,7 +11,7 @@ from threading import Thread
 from gtts import gTTS
 from googletrans import Translator
 cl = LINETCR.LINE()
-cl.login(token="ErTTfRbq3c3SumTHirgf.7XcR1Iuq/y0vAWsI7DNQpW.uDmo8h6cpa8ofsfXzkrJBiWteiABXMlLdLo+vdOKDME=")
+cl.login(token="Er6wfEmER1lhwCeQNih2.FhhNokcvxL52GrZPZEN+aG.HA9YVXRQvH3+xhP8HajzIPj4EvX2XCkRmWNTKxgVcuo=")
 cl.loginResult()
 
 ki1 = LINETCR.LINE()
@@ -2469,10 +2469,10 @@ def bot(op):
                         ki9.acceptGroupInvitationByTicket(msg.to,Ticket)
                         ki10.acceptGroupInvitationByTicket(msg.to,Ticket)
 
-                        ki1.sendText(msg.to,"เรียกพวกผมมีไรลูกพี่")
-                        ki2.sendText(msg.to,"กลุ่มใครว่ะ ลบเเม่งเลยดีมั้ย")
-                        ki3.sendText(msg.to,"ตบโชว์เลยดีมั้ย")
-                        ki1.sendText(msg.to,"ทักทาย" + str(ginfo.name) + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki1.sendText(msg.to,".")
+                        ki2.sendText(msg.to,"@@")
+                        ki3.sendText(msg.to,"..")
+                        ki1.sendText(msg.to,"ทักทาย" + str(ginfo.name) + "\n\n[ѕєʟғвот κɪcκєʀ]")
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
                         G.preventJoinByTicket = True
@@ -2518,25 +2518,25 @@ def bot(op):
                 if msg.toType == 2:
                     ginfo = cl.getGroup(msg.to)
                     try:
-                        ki1.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki1.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki1.leaveGroup(msg.to)
-                        ki2.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki2.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki2.leaveGroup(msg.to)
-                        ki3.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki3.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki3.leaveGroup(msg.to)
-                        ki4.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki4.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki4.leaveGroup(msg.to)
-                        ki5.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki5.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki5.leaveGroup(msg.to)
-                        ki6.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki6.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki6.leaveGroup(msg.to)
-                        ki7.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki7.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki7.leaveGroup(msg.to)
-                        ki8.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki8.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki8.leaveGroup(msg.to)
-                        ki9.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki9.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki9.leaveGroup(msg.to)
-                        ki10.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ สายการบิน-นกแอร์ รักคุณเท่าฟ้า.─•]")
+                        ki10.sendText(msg.to,"บ๊าย..บายยยย"  +  str(ginfo.name)  + "\n\n[•─ ✫ѕєʟғвот κɪcκєʀ ✫─•]")
                         ki10.leaveGroup(msg.to)
 
                     except:
