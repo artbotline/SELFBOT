@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 
 import LINETCR
 from LINETCR.lib.curve.ttypes import *
@@ -15,50 +15,50 @@ cl.login(token="ErTTfRbq3c3SumTHirgf.7XcR1Iuq/y0vAWsI7DNQpW.uDmo8h6cpa8ofsfXzkrJ
 cl.loginResult()
 
 ki1 = LINETCR.LINE()
-ki1.login(token="Er5agOr6uRrEOKQrZRi6.AeKuEPcGr3Cdzv9gJs2bvG.8yzEO48bYJwfCGKBySFqOy9q7l5UPvjEaSTlfRD9YHo=")
+ki1.login(token="Er6a8roWv5IHbXb4fdN6.AeKuEPcGr3Cdzv9gJs2bvG.fpG0/twgUshgPpcYOZ+JZQVLwYK+BWiVW7Mc2rTN9Dk=")
 ki1.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="Erhz4G8IeN1Mmkqie812.g1ZogJeNTfjMt9VAu1zSGG.gar2uHEOdhEzRnRUCqC9OXbiBvE1xXtvpM/DtwZrd1A=")
+ki2.login(token="ErkkNmbGwwIlSuhQBo12.g1ZogJeNTfjMt9VAu1zSGG.WZDHhaIN/5FW74z3zEC/gljugLLQPBsBzwQwLP2/mi8=")
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token="ErAoX56Of7DoaZSqXoGa.HszijXjCkLdDESr3IFJFMG.EO2A4ILuDUPqxIqT/BPoqgns66Q65tEzAB9K4EkcO2s=")
+ki3.login(token="Er4AButX7o85A4WNcLRa.HszijXjCkLdDESr3IFJFMG.xHJ0g4jFrdifuyfSgT2W2yKj15fbTKDKPuD9DYO4i1w=")
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token="EreMn5alQOZyl8grDdL9.0BAGT8fYNlwtFF0JpnoQQq.Es6eEkrFEWU+Zs3XQlGHIraIGDpq7pvplMn9rhRcgX4=")
+ki4.login(token="ErsRxrVwB7gtaebtImH9.0BAGT8fYNlwtFF0JpnoQQq.1o3T3+rr1F4Zbp7M0/K11iJxni1KE/2POJyw7OIiId8=")
 ki4.loginResult()
 
 ki5 = LINETCR.LINE()
-ki5.login(token="ErY98IkjWVr2qbGlVeZe.Pp+d5cSpGJyV3FSStOSsZG.URLjWMi65OJBUgGon5j6DW7wtxxaQKYgHrAqpMoqwJc=")
+ki5.login(token="Erw2YUQYQNMN9HGemwce.Pp+d5cSpGJyV3FSStOSsZG.HK4YqTRqVFy4fq0dnMg/iQV/NiLRbXmKIyGpQBe28PI=")
 ki5.loginResult()
 
 ki6 = LINETCR.LINE()
-ki6.login(token="ErclZ6IdQ8c9LAT6zWIe.FAFJczyJbR7tXWzc5CAI+G.iLNjoKahICOVuP7lV6JAp2hxu6juD/7SERP/nKd7MDI")
+ki6.login(token="EruxriC8Rt8tRhslVgVe.FAFJczyJbR7tXWzc5CAI+G.KHdCm07ApxTRQ2TAen6JT0FcFGR59r6q3XZf4SKmTT8=")
 ki6.loginResult()
 
 ki7 = LINETCR.LINE()
-ki7.login(token="ErjD5fJqbEI18e9fbDCf.4/CTth89qPPNvygeCYdQJW.C5Gw+Wq3RmZE7gz3LvP/jqbcsf9oRS3pRxBDO3UGjNM=")
+ki7.login(token="ErQyBPxam94uuzfEbItf.4/CTth89qPPNvygeCYdQJW.TaMBsMRiQJHETKW5FDFDGVKFoqblZttGL4Mdx+q7LFI=")
 ki7.loginResult()
 
 ki8 = LINETCR.LINE()
-ki8.login(token="ErGaDtOimSJPzMO2ej27.pv884/sYFcXVxi1KPZldLW.BEbIv3hWWmmIdwicIJdEgGHiiQIw7ZflXkdaFAgH5/w=")
+ki8.login(token="Erg49Mwu16Ds7glPJal7.pv884/sYFcXVxi1KPZldLW./GZ/Kp30fl1uebKpeoHNUipnZtLGX995lxnpb8hecAc=")
 ki8.loginResult()
 
 ki9 = LINETCR.LINE()
-ki9.login(token="ErkIWEL86KUoFePu5WL7.u4e7sLbWPxkZMzv1i8UAvW.4rqvonYlX8VEbhTrunrPyHeHdaMv7dAI9/nmsCv6WUo=")
+ki9.login(token="Erigqix9a5L9mNwSoYy7.u4e7sLbWPxkZMzv1i8UAvW.qmPREACMfGQt8zm+VGe9PeFCyQ1kyL2FePG9MdT/+cw=")
 ki9.loginResult()
 
 ki10 = LINETCR.LINE()
-ki10.login(token="ErKVOS86sGEKL1Vieoa3.qM2w4JmIWq5isTT8WtzEqW.mF5uP9IIx0N9VQhdFMPrD+wyVpuJNqyDLYVn8LLyLOA=")
+ki10.login(token="ErWImEIKBNeWhae0cJC3.qM2w4JmIWq5isTT8WtzEqW.w84oZOYVlyVIq2ClGGZ0nd6xHzfqyjT5jBoJKmOkCd0=")
 ki10.loginResult()
 
 print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""╔═════════════════
-║           
+║
 ║•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-]κɪcκєʀ ͜͡✫─•
 ║
 ╠═════════════════
@@ -312,13 +312,13 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = ["uef10abd62510f98d156b04a2edd9ea3f",Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
-self = ["uef10abd62510f98d156b04a2edd9ea3f",Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
-admin = "uef10abd62510f98d156b04a2edd9ea3f"
-admsa = "uef10abd62510f98d156b04a2edd9ea3f"
-owner = "uef10abd62510f98d156b04a2edd9ea3f"
-adminMID = "uef10abd62510f98d156b04a2edd9ea3f"
-Creator="uef10abd62510f98d156b04a2edd9ea3f"
+Bots = ["u7c71e738a0955e5e76811ce9cde9ff02",Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
+self = ["u7c71e738a0955e5e76811ce9cde9ff02",Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
+admin = "u7c71e738a0955e5e76811ce9cde9ff02"
+admsa = "u7c71e738a0955e5e76811ce9cde9ff02"
+owner = "u7c71e738a0955e5e76811ce9cde9ff02"
+adminMID = "u7c71e738a0955e5e76811ce9cde9ff02"
+Creator="u7c71e738a0955e5e76811ce9cde9ff02"
 wait = {
     "alwayRead":False,
     "detectMention":True,
