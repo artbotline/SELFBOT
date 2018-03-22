@@ -15,43 +15,43 @@ cl.login(token="Er6wfEmER1lhwCeQNih2.FhhNokcvxL52GrZPZEN+aG.HA9YVXRQvH3+xhP8Hajz
 cl.loginResult()
 
 ki1 = LINETCR.LINE()
-ki1.login(token="Er6a8roWv5IHbXb4fdN6.AeKuEPcGr3Cdzv9gJs2bvG.fpG0/twgUshgPpcYOZ+JZQVLwYK+BWiVW7Mc2rTN9Dk=")
+ki1.login(token="ErQegQdMUz9xuvcfPgG6.AeKuEPcGr3Cdzv9gJs2bvG.1Y08klc49eZCCWRunQuSJbGx1mwunvjCkKtxtPaQ+jE=")
 ki1.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="ErkkNmbGwwIlSuhQBo12.g1ZogJeNTfjMt9VAu1zSGG.WZDHhaIN/5FW74z3zEC/gljugLLQPBsBzwQwLP2/mi8=")
+ki2.login(token="ErIBXyfyxc174PiCf9L2.g1ZogJeNTfjMt9VAu1zSGG.GUPjhT7dcJUgMaWXcxZmDF/78I6qIztT+8nPjSb1PEU=")
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token="Er4AButX7o85A4WNcLRa.HszijXjCkLdDESr3IFJFMG.xHJ0g4jFrdifuyfSgT2W2yKj15fbTKDKPuD9DYO4i1w=")
+ki3.login(token="ErhDyC1JEfleNtks40Fa.HszijXjCkLdDESr3IFJFMG.chNBweGhSrqObOP9wBplj+zN/KUJWghbzt9/70rDf+g=")
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token="ErsRxrVwB7gtaebtImH9.0BAGT8fYNlwtFF0JpnoQQq.1o3T3+rr1F4Zbp7M0/K11iJxni1KE/2POJyw7OIiId8=")
+ki4.login(token="ErQPpEM88mOOuIZG29J9.0BAGT8fYNlwtFF0JpnoQQq.mYW0OETY1WVCCp2IJwrKNSWgzaiT00LSZfK1grHScsE=")
 ki4.loginResult()
 
 ki5 = LINETCR.LINE()
-ki5.login(token="Erw2YUQYQNMN9HGemwce.Pp+d5cSpGJyV3FSStOSsZG.HK4YqTRqVFy4fq0dnMg/iQV/NiLRbXmKIyGpQBe28PI=")
+ki5.login(token="ErcM0c6PNKeqq3hHQTDe.Pp+d5cSpGJyV3FSStOSsZG.J3zCesXjaqYgn5gGnetRqVs75Q9ELMhtv8yxagstoZ8=")
 ki5.loginResult()
 
 ki6 = LINETCR.LINE()
-ki6.login(token="EruxriC8Rt8tRhslVgVe.FAFJczyJbR7tXWzc5CAI+G.KHdCm07ApxTRQ2TAen6JT0FcFGR59r6q3XZf4SKmTT8=")
+ki6.login(token="ErKRQxDbSA44NT98AxLe.FAFJczyJbR7tXWzc5CAI+G.hzU9G4rM7aVUePhkmDduIV7c0sTe7aODjiyh/rFmNAQ=")
 ki6.loginResult()
 
 ki7 = LINETCR.LINE()
-ki7.login(token="ErQyBPxam94uuzfEbItf.4/CTth89qPPNvygeCYdQJW.TaMBsMRiQJHETKW5FDFDGVKFoqblZttGL4Mdx+q7LFI=")
+ki7.login(token=" ErtWrC8y47fQKa5ENYDf.4/CTth89qPPNvygeCYdQJW.4P0YLuZluYjB1ABVtqfRlrchoScNEmme7+RV4tGpr38=")
 ki7.loginResult()
 
 ki8 = LINETCR.LINE()
-ki8.login(token="Erg49Mwu16Ds7glPJal7.pv884/sYFcXVxi1KPZldLW./GZ/Kp30fl1uebKpeoHNUipnZtLGX995lxnpb8hecAc=")
+ki8.login(token="Er7Hd7CcFPMwROOutkV7.pv884/sYFcXVxi1KPZldLW.1n5sw/VTMsHYqu926bR3n7CSpoxy0BbHfS0G95IEmjI=")
 ki8.loginResult()
 
 ki9 = LINETCR.LINE()
-ki9.login(token="Erigqix9a5L9mNwSoYy7.u4e7sLbWPxkZMzv1i8UAvW.qmPREACMfGQt8zm+VGe9PeFCyQ1kyL2FePG9MdT/+cw=")
+ki9.login(token="ErRD8Qr4n2y5PKbjw8V7.u4e7sLbWPxkZMzv1i8UAvW.fDrdCQkfy/QNeTF1oojXsilql8B9Wyd2yNBqNU+Qo6Q=")
 ki9.loginResult()
 
 ki10 = LINETCR.LINE()
-ki10.login(token="ErWImEIKBNeWhae0cJC3.qM2w4JmIWq5isTT8WtzEqW.w84oZOYVlyVIq2ClGGZ0nd6xHzfqyjT5jBoJKmOkCd0=")
+ki10.login(token="Eru21FNhp7QWIAwDKIV3.qM2w4JmIWq5isTT8WtzEqW.G8W+hz/eMr1LDqVXBdYd7rwsFt+8cJTMVQY4mSoVj/A=")
 ki10.loginResult()
 
 print "login success"
@@ -291,7 +291,7 @@ helpMessage4 ="""
 ║✰ บินแม่ง ➠สั่งคิกเกอร์บินห้อง
 ╚══════════════════════
 """
-KAC=[cl,ki1,ki2,ki3,ki4,ki5]
+KAC=[cl,ki1,ki2,ki3,ki4,ki5,ki6,ki7,ki8,ki9,ki10]
 mid = cl.getProfile().mid
 Amid1 = ki1.getProfile().mid
 Amid2 = ki2.getProfile().mid
@@ -312,8 +312,8 @@ autoinvite = []
 autoleaveroom = []
 targets = []
 mid = cl.getProfile().mid
-Bots = ["u7c71e738a0955e5e76811ce9cde9ff02",Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
-self = ["u7c71e738a0955e5e76811ce9cde9ff02",Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
+Bots = ["u7c71e738a0955e5e76811ce9cde9ff02",mid,Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
+self = ["u7c71e738a0955e5e76811ce9cde9ff02",mid,Amid1,Amid2,Amid3,Amid4,Amid5,Amid6,Amid7,Amid8,Amid9,Amid10]
 admin = "u7c71e738a0955e5e76811ce9cde9ff02"
 admsa = "u7c71e738a0955e5e76811ce9cde9ff02"
 owner = "u7c71e738a0955e5e76811ce9cde9ff02"
