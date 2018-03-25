@@ -1771,13 +1771,13 @@ def bot(op):
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
+            cb.text = cl.getContact(op.param2).displayName +"\n🌟หวัดดีไอ้น้อง🌟\n👉"+group.name
             cl.sendMessage(cb)
         if op.type == 15:
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢"
+            cb.text = cl.getContact(op.param2).displayName + "\n😭😭จะรีบไปไหน ยังไม่ได้ปี้เลยยยยย\n"+group.name+"😢"
             cl.sendMessage(cb)
 #------------------------------------------------------------------------------------
         if op.type == 26:
@@ -1798,7 +1798,7 @@ def bot(op):
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
                      balas = [""]
-                     ret_ = "โอ๊บ โอ๊บ โอ๊บๆๆๆๆๆ" + random.choice(balas)
+                     ret_ = "เหมียวววววววว" + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
                      mentionees = mention['MENTIONEES']
