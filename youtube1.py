@@ -1771,13 +1771,13 @@ def bot(op):
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
+            cb.text = cl.getContact(op.param2).displayName +"\n🌟เข้ามาเเล้ว ชิดในเลยไอ้น้อง🌟\n👉"+group.name
             cl.sendMessage(cb)
         if op.type == 15:
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢"
+            cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปไม่กลับ หลับไม่ตื่น ฟื้นไม่มี หนีไม่พ้น\n"+group.name+"😢"
             cl.sendMessage(cb)
 #------------------------------------------------------------------------------------
         if op.type == 26:
