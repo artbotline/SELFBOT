@@ -1767,18 +1767,18 @@ def bot(op):
                 url = msg.contentMetadata["postEndUrl"]
                 cl.like(url[25:58], url[66:], likeType=1001)
 #-----------------------------------------------
-        #if op.type == 17:
-        #    group = cl.getGroup(op.param1)
-        #    cb = Message()
-        #    cb.to = op.param1
-        #    cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต่อนรับนะตรับ🌟\n👉"+group.name
-        #    cl.sendMessage(cb)
-        #if op.type == 15:
-        #    group = cl.getGroup(op.param1)
-        #    cb = Message()
-        #    cb.to = op.param1
-        #    cb.text = cl.getContact(op.param2).displayName + "\n😭😭จะรีบไปไหน ยังไม่ได้ปี้เลยยยยย\n"+group.name+"😢"
-        #    cl.sendMessage(cb)
+        if op.type == 17:
+            group = cl.getGroup(op.param1)
+            cb = Message()
+            cb.to = op.param1
+            cb.text = cl.getContact(op.param2).displayName + "✫ยินดีต้อนรับครับ✫\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะครับ 􂜁􀆄􏿿\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•]
+            cl.sendMessage(cb)
+        if op.type == 15:
+            group = cl.getGroup(op.param1)
+            cb = Message()
+            cb.to = op.param1
+            cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢""
+            cl.sendMessage(cb)
 #------------------------------------------------------------------------------------
         if op.type == 26:
             msg = op.message
@@ -6381,7 +6381,7 @@ http://line.me/ti/p/_9io7edD7W
                 if op.param2 in Bots:
                     return
                 cl.sendText(op.param1,cl.getContact(op.param2).displayName + " ☜(สมาชิกใหม่) ")
-                cl.sendText(op.param1, "􀜁􀄁􏿿 ยินดีต้อนรับครับ 􀜁􀄁􏿿\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะ 􂜁􀆄􏿿\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•]")
+                cl.sendText(op.param1, "􀔃􀅕red arrow right􏿿􀔃􀅕red arrow right􏿿 ยินดีต้อนรับครับ 􀔃􀅙red arrow left􏿿􀔃􀅙red arrow left􏿿\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะ 􂜁􀆄􏿿\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•]")
                 print "MEMBER HAS JOIN THE GROUP"
 
         if op.type == 19:
