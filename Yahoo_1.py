@@ -6373,7 +6373,7 @@ http://line.me/ti/p/_9io7edD7W
             if wait["Notifed"] == True:
                 if op.param2 in Bots:
                     return
-                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n😭😭จะรีบไปไหน ยังไม่ได้ปี้เลยยยยย\n"+group.name+"😢")
+                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢")
                 print "MEMBER OUT GROUP"
 
         if op.type == 17:
