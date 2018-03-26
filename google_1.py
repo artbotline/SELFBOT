@@ -314,9 +314,9 @@ targets = []
 mid = cl.getProfile().mid
 Bots = [mid]
 self = [mid]
-admin = ["u7c71e738a0955e5e76811ce9cde9ff02","u4c77811a8ae3cf9790c7236a9021f92b","u6abc30a96c0b7e52ca4cb7be6bcbec99"]
-admsa = ["u7c71e738a0955e5e76811ce9cde9ff02","u4c77811a8ae3cf9790c7236a9021f92b","u6abc30a96c0b7e52ca4cb7be6bcbec99"]
-owner = ["u7c71e738a0955e5e76811ce9cde9ff02","u4c77811a8ae3cf9790c7236a9021f92b","u6abc30a96c0b7e52ca4cb7be6bcbec99"]
+admin ="u449034c15042f01e5356cb2695154167"
+admsa = "u449034c15042f01e5356cb2695154167"
+owner = "u449034c15042f01e5356cb2695154167"
 adminMID = "u449034c15042f01e5356cb2695154167"
 Creator="u449034c15042f01e5356cb2695154167"
 wait = {
@@ -333,7 +333,7 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me By:----❍ণហ ざণاعနัю❍ีざန----",
+    'message':"Thanks for add Me By:•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•",
     "lang":"JP",
     "comment":"AutoLike by Phet",
     "commentOn":False,
@@ -346,7 +346,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"----❍ণហ ざণاعနัю❍ีざန----",
+    "cName":"•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•",
     "likeOn":False,
     "pname":False,
     "blacklist":{},
@@ -1767,18 +1767,18 @@ def bot(op):
                 url = msg.contentMetadata["postEndUrl"]
                 cl.like(url[25:58], url[66:], likeType=1001)
 #-----------------------------------------------
-        if op.type == 17:
-            group = cl.getGroup(op.param1)
-            cb = Message()
-            cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต้อนรับเข้าสู่🌟\n👉"+group.name
-            cl.sendMessage(cb)
-        if op.type == 15:
-            group = cl.getGroup(op.param1)
-            cb = Message()
-            cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName + "\n😭😭ไปแล้วหรอคิดถึงก็กลับมา\n"+group.name+"ใหม่นะ😢"
-            cl.sendMessage(cb)
+        #if op.type == 17:
+        #    group = cl.getGroup(op.param1)
+        #    cb = Message()
+        #    cb.to = op.param1
+        #    cb.text = cl.getContact(op.param2).displayName +"\n🌟ยินดีต่อนรับนะตรับ🌟\n👉"+group.name
+        #    cl.sendMessage(cb)
+        #if op.type == 15:
+        #    group = cl.getGroup(op.param1)
+        #    cb = Message()
+        #    cb.to = op.param1
+        #    cb.text = cl.getContact(op.param2).displayName + "\n😭😭จะรีบไปไหน ยังไม่ได้ปี้เลยยยยย\n"+group.name+"😢"
+        #    cl.sendMessage(cb)
 #------------------------------------------------------------------------------------
         if op.type == 26:
             msg = op.message
@@ -1798,7 +1798,7 @@ def bot(op):
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
                      balas = [""]
-                     ret_ = "โอ๊บ โอ๊บ โอ๊บๆๆๆๆๆ" + random.choice(balas)
+                     ret_ = "เหมียวววววววว" + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
                      mentionees = mention['MENTIONEES']
@@ -2334,7 +2334,7 @@ def bot(op):
                         pass
             elif msg.text.lower() in ["แอดมิน","mee"]:
                 msg.contentType = 13
-                adm = 'u094b991a162ec1f066abb5e98c0434c6'
+                adm = 'u449034c15042f01e5356cb2695154167'
                 msg.contentMetadata = {'mid': adm}
                 cl.sendMessage(msg)
                 cl.sendText(msg.to,"Add Line http://line.me/ti/p/_9io7edD7W")
@@ -2941,7 +2941,7 @@ http://line.me/ti/p/_9io7edD7W
                           u = "[ปิด]"
                         else:
                             u = "[เปิด]"
-                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/0hnKqOolu-MWRMNh1YC39OM3BzPwk7GCAsIll6UGxjbgdlDn4zd1d9UWozOgdjVXI3dFArAGoxb1Ay/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL [By: เพชร ทีมทดลองบอท]")
+                        cl.sendText(msg.to,"[ชื่อของกลุ่ม]:\n" + str(ginfo.name) + "\n[Gid]:\n" + msg.to + "\n[ผู้สร้างกลุ่ม:]\n" + gCreator + "\n[ลิ้งค์รูปกลุ่ม]:\nhttp://dl.profile.line.naver.jp/0hnKqOolu-MWRMNh1YC39OM3BzPwk7GCAsIll6UGxjbgdlDn4zd1d9UWozOgdjVXI3dFArAGoxb1Ay/" + ginfo.pictureStatus + "\n[จำนวนสมาชิก]:" + str(len(ginfo.members)) + "คน\n[จำนวนค้างเชิญ]:" + sinvitee + "คน\n[สถานะลิ้งค์]:" + u + "URL [•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•]")
                     else:
                         cl.sendText(msg.to,"Nama Gourp:\n" + str(ginfo.name) + "\nGid:\n" + msg.to + "\nCreator:\n" + gCreator + "\nProfile:\nhttp://dl.profile.line.naver.jp/" + ginfo.pictureStatus)
                 else:
@@ -6373,15 +6373,15 @@ http://line.me/ti/p/_9io7edD7W
             if wait["Notifed"] == True:
                 if op.param2 in Bots:
                     return
-                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n􀜁􀄄􏿿 เเล้วพบใหม่นะ 􀜁􀄄􏿿")
+                cl.sendText(op.param1,cl.getContact(op.param2).displayName + "\n😭😭จะรีบไปไหน ยังไม่ได้ปี้เลยยยยย😢")
                 print "MEMBER OUT GROUP"
 
         if op.type == 17:
             if wait["Notifed"] == True:
                 if op.param2 in Bots:
                     return
-                cl.sendText(op.param1,cl.getContact(op.param2).displayName + " ☜ʕ•ﻌ•ʔ ")
-                cl.sendText(op.param1, "􀜁􀄁􏿿 ยินดีต้อนรับครับ 􀜁􀄁􏿿\n􀄃􀅸􏿿 สวัสดีครับผม 􀄃􀅸􏿿\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะ 􂜁􀆄􏿿\n\n[By.❍ণហ ざণاعနัю❍ีざနะ]")
+                #cl.sendText(op.param1,cl.getContact(op.param2).displayName + " ☜(สมาชิกใหม่) ")
+                cl.sendText(op.param1, "ʕ•ᴥ•ʔ🇼 🇪 🇱 🇨 🇴 🇲 🇪ʕ•ᴥ•ʔ")
                 print "MEMBER HAS JOIN THE GROUP"
 
         if op.type == 19:
@@ -6404,7 +6404,7 @@ http://line.me/ti/p/_9io7edD7W
             if wait["Notifedbot"] == True:
                 if op.param2 in Bots:
                     return
-                ki1.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n􀜁􀄁􏿿􂘁􀄗􏿿􂘁􀄅􏿿􂘁􀄌􏿿􂘁􀄃􏿿􂘁􀄏􏿿􂘁􀄍􏿿􂘁􀄅􏿿􀜁􀄁􏿿\n\n[By.❍ণហ ざণاعနัю❍ีざနะ]")
+                ki1.sendText(op.param1,cl.getContact(op.param2).displayName + "\n\n􀜁􀄁􏿿􂘁􀄗􏿿􂘁􀄅􏿿􂘁􀄌􏿿􂘁􀄃􏿿􂘁􀄏􏿿􂘁􀄍􏿿􂘁􀄅􏿿􀜁􀄁􏿿\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•]")
 
                 print "MEMBER HAS JOIN THE GROUP"
         if op.type == 19:
