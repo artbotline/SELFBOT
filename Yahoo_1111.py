@@ -1771,7 +1771,7 @@ def bot(op):
             group = cl.getGroup(op.param1)
             cb = Message()
             cb.to = op.param1
-            cb.text = cl.getContact(op.param2).displayName + "✫ยินดีต้อนรับครับ✫\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะครับ 􂜁􀆄􏿿\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•]
+            cb.text = cl.getContact(op.param2).displayName + "✫ยินดีต้อนรับครับ✫\n􂜁􀆄􏿿 อย่าลืมปิดเสียงการเเจ้งเตือนด้วยนะครับ 􂜁􀆄􏿿\n\n[•─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•]"
             cl.sendMessage(cb)
         if op.type == 15:
             group = cl.getGroup(op.param1)
