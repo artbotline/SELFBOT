@@ -1798,7 +1798,7 @@ def bot(op):
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
                      balas = [""]
-                     ret_ = "เหมียวววววววว" + random.choice(balas)
+                     ret_ = "เเทกหาพ่อมึงหรอ" + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
                      mentionees = mention['MENTIONEES']
