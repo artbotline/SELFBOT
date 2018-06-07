@@ -1,4 +1,5 @@
 # LINE TCR
+# BY •─ ͜͡✫ѕєʟғвот[☆-❍ণហ ざণاعနัю❍ีざန-☆]κɪcκєʀ ͜͡✫─•
 Forked from LINEALPHA [MerkKremont]
 
 fixing some error and delete unusable code 
